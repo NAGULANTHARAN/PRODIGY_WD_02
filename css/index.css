@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bg-color);
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  #time {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .controls button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background-color: var(--button-bg-color);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:active {
+    background-color: var(--button-active-color);
+  }
+  
+  #laps {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  #laps div {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  #toggleThemeBtn {
+    margin-top: 20px;
+  }
+  
+  :root {
+    --bg-color: #f4f4f9;
+    --text-color: #000;
+    --button-bg-color: #4CAF50;
+    --button-active-color: #45a049;
+  }
+  
+  .dark-mode {
+    --bg-color: #333;
+    --text-color: #fff;
+    --button-bg-color: #888;
+    --button-active-color: #555;
+  }
+  
